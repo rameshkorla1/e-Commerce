@@ -1,0 +1,6 @@
+19:17:52.387 [main] INFO  ecomm.Tests.ContactUsTest - Click on the SubjectHeading and value as:Webmaster
+19:17:52.575 [main] INFO  ecomm.Tests.ContactUsTest - Enter email address as:QAUser@aol.com
+19:17:53.014 [main] INFO  ecomm.Tests.ContactUsTest - Enter orderReference as:OD12122
+19:17:53.265 [main] INFO  ecomm.Tests.ContactUsTest - Enter Meassage:This is for QAUser
+19:17:55.373 [main] INFO  ecomm.Tests.ContactUsTest - Click on the Send Button
+19:17:57.615 [main] INFO  ecomm.Tests.ContactUsTest - Click on the ContactUs Page

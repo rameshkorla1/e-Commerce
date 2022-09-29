@@ -1,0 +1,6 @@
+17:12:40.854 [main] INFO  productsTests.productTest - Click on the Add To Cart button
+17:12:45.985 [main] INFO  productsTests.productTest - Click on the Proceed
+17:12:48.032 [main] INFO  productsTests.productTest - Click on the Checkout Proceed
+17:12:51.278 [main] INFO  productsTests.productTest - Click on the Proceed the Item
+17:12:51.412 [main] INFO  productsTests.productTest - Click on the agree and Terms of the Item
+17:12:52.923 [main] INFO  productsTests.productTest - Click on the Carrier

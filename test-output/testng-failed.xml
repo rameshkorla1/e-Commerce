@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="customListeners.TestListener"/>
+  </listeners>
+  <test name="SignupTest(failed)" parallel="none">
+    <classes>
+      <class name="ecomm.Tests.SignUpJsonTest">
+        <methods>
+          <include name="userSingup" invocation-numbers="1"/>
+          <include name="quitBrowser"/>
+          <include name="BrowserLaunch"/>
+        </methods>
+      </class> <!-- ecomm.Tests.SignUpJsonTest -->
+      <class name="ecomm.Tests.ContactUsTest">
+        <methods>
+          <include name="BrowserLaunch"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- ecomm.Tests.ContactUsTest -->
+      <class name="productsTests.productTest">
+        <methods>
+          <include name="BrowserLaunch"/>
+        </methods>
+      </class> <!-- productsTests.productTest -->
+    </classes>
+  </test> <!-- SignupTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

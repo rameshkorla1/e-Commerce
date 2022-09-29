@@ -1,0 +1,6 @@
+21:20:44.673 [main] INFO  productsTests.productTest - Click on the Add To Cart button
+21:20:49.997 [main] INFO  productsTests.productTest - Click on the Proceed
+21:20:53.510 [main] INFO  productsTests.productTest - Click on the Checkout Proceed
+21:20:57.818 [main] INFO  productsTests.productTest - Click on the Proceed the Item
+21:20:57.880 [main] INFO  productsTests.productTest - Click on the agree and Terms of the Item
+21:21:01.842 [main] INFO  productsTests.productTest - Click on the Carrier

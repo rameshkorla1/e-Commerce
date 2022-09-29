@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on the ContactUs Page<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the SubjectHeading and value as:Webmaster<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Enter email address as:QAUser@aol.com<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Enter orderReference as:OD12122<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Meassage:This is for QAUser<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Send Button<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Assert condition<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the ContactUs Page<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the SubjectHeading and value as:Customer service<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Enter email address as:ramesh.korla@outlook.com<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Enter orderReference as:OD234534<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Meassage:This is Ramesh Korla<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Send Button<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Assert condition<br/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20906" started-at="2022-09-04T13:47:41Z" finished-at="2022-09-04T13:48:02Z">
+    <groups>
+    </groups>
+    <test name="ContactUsTest" duration-ms="20906" started-at="2022-09-04T13:47:41Z" finished-at="2022-09-04T13:48:02Z">
+      <class name="ecomm.Tests.ContactUsTest">
+        <test-method status="PASS" signature="BrowserLaunch()[pri:0, instance:ecomm.Tests.ContactUsTest@51c668e3]" name="BrowserLaunch" is-config="true" duration-ms="8308" started-at="2022-09-04T19:17:41Z" finished-at="2022-09-04T19:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method status="PASS" signature="verifyContactuspage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ecomm.Tests.ContactUsTest@51c668e3]" name="verifyContactuspage" duration-ms="5959" started-at="2022-09-04T19:17:49Z" data-provider="ContactUsData" finished-at="2022-09-04T19:17:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Webmaster]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QAUser@aol.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OD12122]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for QAUser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the ContactUs Page<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the SubjectHeading and value as:Webmaster<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Enter email address as:QAUser@aol.com<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Enter orderReference as:OD12122<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Meassage:This is for QAUser<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Send Button<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Assert condition<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContactuspage -->
+        <test-method status="PASS" signature="verifyContactuspage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ecomm.Tests.ContactUsTest@51c668e3]" name="verifyContactuspage" duration-ms="5041" started-at="2022-09-04T19:17:56Z" data-provider="ContactUsData" finished-at="2022-09-04T19:18:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ramesh.korla@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OD234534]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is Ramesh Korla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the ContactUs Page<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the SubjectHeading and value as:Customer service<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Enter email address as:ramesh.korla@outlook.com<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Enter orderReference as:OD234534<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Meassage:This is Ramesh Korla<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Send Button<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Assert condition<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContactuspage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:ecomm.Tests.ContactUsTest@51c668e3]" name="quitBrowser" is-config="true" duration-ms="799" started-at="2022-09-04T19:18:01Z" finished-at="2022-09-04T19:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- ecomm.Tests.ContactUsTest -->
+    </test> <!-- ContactUsTest -->
+  </suite> <!-- Suite -->
+</testng-results>

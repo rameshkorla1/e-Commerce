@@ -1,0 +1,16 @@
+{
+  "ContactUs": [
+   {
+      "subjectheading":"Webmaster",
+      "email":"QAUser@aol.com",
+      "orderref":"OD12122",
+      "message":"This is for QAUser"
+   },
+   {
+      "subjectheading":"Customer service",
+      "email":"ramesh.korla@outlook.com",
+      "orderref":"OD234534",
+      "message":"This is Ramesh Korla"
+   } 
+  ]
+}

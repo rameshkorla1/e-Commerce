@@ -1,0 +1,35 @@
+{
+ "UserSignUpData": 
+  [
+  {
+    "customerfirstName": "Test User",
+    "customerlastName" : "Vsoft",
+    "password": "pass@123",
+    "firstName": "Test User",
+    "lastName":"Vsoft",
+    "company":"Vsoft",
+     "address":"Test 81/1,2nd cross",
+     "city": "New York",
+     "state": "New York",
+     "postcode": "51838",
+     "country": "United States",
+     "phone": "234567890",
+     "alias": "Office"
+   },
+   {
+    "customerfirstName": "Test User",
+    "customerlastName" : "Vsoft",
+    "password": "pass@123",
+    "firstName": "Test User1",
+    "lastName":"Vsoft",
+    "company":"Vsoft Solutions",
+     "address":"Test 81/1,2nd cross",
+     "city": "New York",
+     "state": "New York",
+     "postcode": "51838",
+     "country": "United States",
+     "phone": "234567890",
+     "alias": "Office"
+   }
+]
+}

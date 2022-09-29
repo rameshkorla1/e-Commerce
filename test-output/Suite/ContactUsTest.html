@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  ContactUsTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ContactUsTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 04 19:17:41 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20906 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecomm.Tests.ContactUsTest.verifyContactuspage()'><b>verifyContactuspage</b><br>Test class: ecomm.Tests.ContactUsTest<br>Parameters: Webmaster, QAUser@aol.com, OD12122, This is for QAUser<br/>
+<a href="#Output-1442077586" onClick='toggleBox("Output-1442077586", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442077586" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442077586">
+Click on the ContactUs Page<br/><br/>
+Click on the SubjectHeading and value as:Webmaster<br/><br/>
+Enter email address as:QAUser@aol.com<br/><br/>
+Enter orderReference as:OD12122<br/><br/>
+Enter Meassage:This is for QAUser<br/><br/>
+Click on the Send Button<br/><br/>
+Verify the Assert condition<br/><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ecomm.Tests.ContactUsTest@51c668e3</td></tr>
+<tr>
+<td title='ecomm.Tests.ContactUsTest.verifyContactuspage()'><b>verifyContactuspage</b><br>Test class: ecomm.Tests.ContactUsTest<br>Parameters: Customer service, ramesh.korla@outlook.com, OD234534, This is Ramesh Korla<br/>
+<a href="#Output-179060558" onClick='toggleBox("Output-179060558", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-179060558" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-179060558">
+Click on the ContactUs Page<br/><br/>
+Click on the SubjectHeading and value as:Customer service<br/><br/>
+Enter email address as:ramesh.korla@outlook.com<br/><br/>
+Enter orderReference as:OD234534<br/><br/>
+Enter Meassage:This is Ramesh Korla<br/><br/>
+Click on the Send Button<br/><br/>
+Verify the Assert condition<br/><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ecomm.Tests.ContactUsTest@51c668e3</td></tr>
+</table><p>
+</body>
+</html>

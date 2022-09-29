@@ -1,0 +1,5 @@
+19:17:58.171 [main] INFO  ecomm.Tests.ContactUsTest - Click on the SubjectHeading and value as:Customer service
+19:17:58.309 [main] INFO  ecomm.Tests.ContactUsTest - Enter email address as:ramesh.korla@outlook.com
+19:17:58.645 [main] INFO  ecomm.Tests.ContactUsTest - Enter orderReference as:OD234534
+19:17:58.938 [main] INFO  ecomm.Tests.ContactUsTest - Enter Meassage:This is Ramesh Korla
+19:18:01.104 [main] INFO  ecomm.Tests.ContactUsTest - Click on the Send Button
